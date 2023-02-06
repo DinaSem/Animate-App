@@ -23,22 +23,24 @@ gsap.registerPlugin(ScrollTrigger);
 export const App5 = () => {
     const ref = useRef(null);
     const slidesRef = useRef(null);
+    const slideRef = useRef(null);
 
     useLayoutEffect(() => {
         let ctx = gsap.context(() => {
             let sections = gsap.utils.toArray(".slide");
 
             gsap.from(sections, {
-                xPercent: -100 * (sections.length - 1),
+                xPercent: -100 * (sections.length - 4.2),
                 ease: "none",
                 scrollTrigger: {
                     trigger: slidesRef.current,
                     pin: true,
                     scrub: 1,
-                    snap: (1 / (sections.length - 1)),
-                    toggleActions: "play pause resume reset",
-                    markers: true,
-                    end: () => "+=" + document.querySelector(".slides").offsetWidth - 1,
+                    // snap: (1 / (sections.length - 1)),
+                    snap:1,
+                    //toggleActions: "play pause resume reset",
+                   // markers: true,
+                    end: () => "+=" + document.querySelector(".slides").offsetWidth-1,
                 }
             });
         }, slidesRef);
@@ -50,7 +52,7 @@ export const App5 = () => {
             <Top/>
             <div ref={slidesRef} id='block1'>
                 <h1 className='title'>Lorem ipsum dolor sit amet</h1>
-                <div className="slides">
+                <div ref={slideRef} className="slides">
                     <img className="slide" src={a} alt=""/>
                     <img className="slide" src={b} alt=""/>
                     <img className="slide" src={c} alt=""/>
