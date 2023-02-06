@@ -1,0 +1,31 @@
+
+.title {
+  font-family: "Orchidea Pro Medium";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: start;
+  margin: 200px 0 120px 0px;
+}
+#block1 {
+  margin-left : 260px;
+  overflow : hidden !important;
+  max-width: 90%;
+}
+
+.slides {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 510px
+}
+
+.slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  width: 360px;
+  margin: 0 10px;
+}

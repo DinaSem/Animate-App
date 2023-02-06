@@ -1,0 +1,39 @@
+body {
+  background-color: white;
+  margin: 8%;
+  padding: 0;
+}
+
+#firstCircle {
+  background-color: yellow;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border: 2px solid blue;
+  margin-bottom: 20%;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+
+#secondCircle {
+  background-color: blue;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border: 2px solid yellow;
+  margin-bottom: 30%;
+}
+
+#thirdCircle {
+  background-color: black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 50px 0;
+  border: 2px solid yellow;
+}

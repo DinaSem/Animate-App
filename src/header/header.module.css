@@ -1,0 +1,11 @@
+.headerWrapper{
+    background: linear-gradient(0deg, #464341 0%, #010101 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+    padding: 37px 250px;
+}
+.headerItem{
+    max-height:170px;
+}

@@ -1,0 +1,64 @@
+.botomWrapper{
+    margin: 0px 330px 150px 0px;
+}
+.title {
+    font-family: "Orchidea Pro Medium";
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    text-transform: uppercase;
+    text-align: start;
+    margin: 150px 0 120px  260px;
+}
+h2{
+    font-family: "Orchidea Pro Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #141414;
+    margin-bottom: 25px;
+
+}
+.bottomText{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+
+    color: #141414;
+}
+.topMainSectionOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: -21px;
+    top: -104px;
+}
+.topMainSectionTwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 0px 260px;
+    max-width: 1323px;
+    max-height: 411px;
+}
+.topTextSectionOne{
+    max-width: 600px;
+}
+.topTextSectionTwo{
+    max-width: 600px;
+}
+.blackDress{
+    width: 860px;
+    height: 480px;
+}
+.flowerOnAMouth{
+    width: 599px;
+    height: 411px;
+}
