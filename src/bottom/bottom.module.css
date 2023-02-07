@@ -20,7 +20,13 @@ h2{
     align-items: center;
     color: #141414;
     margin-bottom: 25px;
+}
+.topTextSectionOne p {
+    text-align: justify;
+}
 
+.topTextSectionTwo p {
+    text-align: justify;
 }
 .bottomText{
     font-family: 'Manrope', sans-serif;
@@ -110,7 +116,7 @@ h2{
     .topTextSectionTwo h2 {
         font-size: 24px;
         display:table;
-
+        margin-top: 20px;
     }
 
     .bottomText {
@@ -139,11 +145,13 @@ h2{
     .topTextSectionOne p {
         font-size: 14px;
         margin: 40px 20px;
+        text-align: justify;
     }
 
     .topTextSectionTwo p {
         font-size: 14px;
         margin: 20px;
+        text-align: justify;
     }
     .topTextSectionTwo{
         display:table-footer-group;

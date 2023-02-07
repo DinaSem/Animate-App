@@ -44,6 +44,13 @@
 .topTextSectionOne h2 {
     max-width: 600px;
 }
+.topTextSectionOne p {
+    text-align: justify;
+}
+
+.topTextSectionTwo p {
+    text-align: justify;
+}
 
 .topTextSectionTwo {
     max-width: 600px;
@@ -104,7 +111,7 @@
     .topTextSectionTwo h2 {
         font-size: 24px;
         display:table;
-
+        margin-top: 20px;
     }
 
     .topText {
@@ -133,11 +140,13 @@
     .topTextSectionOne p {
         font-size: 14px;
         margin: 40px 20px;
+        text-align: justify;
     }
 
     .topTextSectionTwo p {
         font-size: 14px;
         margin: 20px;
+        text-align: justify;
     }
     .topTextSectionTwo{
         display:table-footer-group;
