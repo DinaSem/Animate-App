@@ -93,6 +93,7 @@
         display: block;
         text-align: center;
         align-items: center;
+        margin: 0;
     }
 
     .topTextSectionOne h2 {
