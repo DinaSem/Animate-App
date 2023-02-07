@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/animation/static/css/main.e522a9ae.css",
-    "main.js": "/animation/static/js/main.3e7eef73.js",
-    "static/js/787.cb55a4cc.chunk.js": "/animation/static/js/787.cb55a4cc.chunk.js",
+    "main.js": "/animation/static/js/main.02718501.js",
+    "static/js/787.907d20ab.chunk.js": "/animation/static/js/787.907d20ab.chunk.js",
     "static/media/rings.png": "/animation/static/media/rings.b9cf9527085afe6f38ef.png",
     "static/media/6.png": "/animation/static/media/6.faa40103c16c1871cbf0.png",
     "static/media/4.png": "/animation/static/media/4.7a245a9f1e6992c6cdc1.png",
@@ -20,11 +20,11 @@
     "static/media/OrchideaPro-Medium.woff2": "/animation/static/media/OrchideaPro-Medium.c59499aeab18220e5d08.woff2",
     "index.html": "/animation/index.html",
     "main.e522a9ae.css.map": "/animation/static/css/main.e522a9ae.css.map",
-    "main.3e7eef73.js.map": "/animation/static/js/main.3e7eef73.js.map",
-    "787.cb55a4cc.chunk.js.map": "/animation/static/js/787.cb55a4cc.chunk.js.map"
+    "main.02718501.js.map": "/animation/static/js/main.02718501.js.map",
+    "787.907d20ab.chunk.js.map": "/animation/static/js/787.907d20ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e522a9ae.css",
-    "static/js/main.3e7eef73.js"
+    "static/js/main.02718501.js"
   ]
 }
