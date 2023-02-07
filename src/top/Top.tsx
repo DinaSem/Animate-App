@@ -37,7 +37,7 @@ const Top = () => {
                         id est laborum
                     </p>
                 </div>
-                <div className={s.panama}><img src={panama} alt="rings"/></div>
+                <div className={s.panama}><img src={panama} alt="panama"/></div>
             </div>
 
         </div>

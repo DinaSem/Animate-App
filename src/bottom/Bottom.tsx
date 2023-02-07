@@ -5,10 +5,10 @@ import flowerOnAMouth from "../pictures/flowerOnAMouth.png";
 
 const Bottom = () => {
     return (
-        <div className={s.botomWrapper}>
+        <div className={s.bottomWrapper}>
             <h1 className={s.title}>ut aliquip ex ea commodo consequat</h1>
             <div className={s.topMainSectionOne}>
-                <div className={s.blackDress}><img src={blackDress} alt="rings"/></div>
+                <div className={s.blackDressImg}><img src={blackDress} alt="rings"/></div>
                 <div className={s.topTextSectionOne}>
                     <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit

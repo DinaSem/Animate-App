@@ -29,3 +29,29 @@
   width: 330px;
   margin: 0 10px;
 }
+
+@media (max-width: 414px) {
+
+  .title {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: start;
+    margin: 110px 20px 64px 20px ;
+    ;
+  }
+  #block1 {
+    margin-left : 0px;
+    overflow : hidden !important;
+    max-width: 90%;
+  }
+  .slides {
+
+    height: 345px
+  }
+  .slide{
+    padding: 5px;
+    width: 225px;
+    margin: 0 10px;
+  }
+}
+
