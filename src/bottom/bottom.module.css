@@ -45,8 +45,8 @@ h2{
     justify-content: space-between;
     align-items: center;
     margin: 50px 0 0px 260px;
-    max-width: 1323px;
-    max-height: 411px;
+    /*max-width: 1323px;*/
+    /*max-height: 411px;*/
 }
 .topTextSectionOne{
     max-width: 600px;
@@ -55,14 +55,14 @@ h2{
     max-width: 600px;
 }
 .blackDress{
-    width: 860px;
-    height: 480px;
+    width: 900px;
+    height: 604px;
 }
 .flowerOnAMouth{
-    width: 599px;
-    height: 411px;
+    /*width: 604px;*/
+    /*height: 884px*/
 }
-@media (max-width: 414px) {
+@media (max-width: 415px) {
     .bottomWrapper {
         margin: 64px 0px
     }

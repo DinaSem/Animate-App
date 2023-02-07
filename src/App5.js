@@ -28,19 +28,23 @@ export const App5 = () => {
     useLayoutEffect(() => {
         let ctx = gsap.context(() => {
             let sections = gsap.utils.toArray(".slide");
-
+            const small = window.innerWidth < 415
             gsap.from(sections, {
-                xPercent: -100 * (sections.length - 4.2),
+                xPercent: small
+                    ? -100 * (sections.length - 4.6)
+                    : 80 * (sections.length - 22),
                 ease: "none",
                 scrollTrigger: {
                     trigger: slidesRef.current,
                     pin: true,
                     scrub: 1,
                     // snap: (1 / (sections.length - 1)),
-                    snap:1,
+                    snap: 1,
                     //toggleActions: "play pause resume reset",
-                   // markers: true,
-                    end: () => "+=" + document.querySelector(".slides").offsetWidth-1,
+                    // markers: true,
+                    end:!small
+                        ?  () => "+=" + document.querySelector(".slides").offsetWidth - 4
+                        : () => "+=" + document.querySelector(".slides").offsetWidth - 1.5,
                 }
             });
         }, slidesRef);
@@ -53,6 +57,7 @@ export const App5 = () => {
             <div ref={slidesRef} id='block1'>
                 <h1 className='title'>Lorem ipsum dolor sit amet</h1>
                 <div ref={slideRef} className="slides">
+                    <div className="slide"></div>
                     <img className="slide" src={a} alt=""/>
                     <img className="slide" src={b} alt=""/>
                     <img className="slide" src={c} alt=""/>
@@ -63,6 +68,9 @@ export const App5 = () => {
                     <img className="slide" src={h} alt=""/>
                     <img className="slide" src={i} alt=""/>
                     <img className="slide" src={j} alt=""/>
+                    <div className="slide"></div>
+                    <div className="slide"></div>
+                    <div className="slide"></div>
                 </div>
             </div>
             <Bottom/>

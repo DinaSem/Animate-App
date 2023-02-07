@@ -29,15 +29,16 @@
     align-items: center;
 
 }
-
+.topTextSectionOne{
+    max-width: 600px;
+}
 .topMainSectionTwo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 80px 0 0 260px;
-    max-width: 1323px;
     max-height: 411px;
-    margin-left: 0;
+    margin-left: 262px;
 }
 
 .topTextSectionOne h2 {
@@ -58,7 +59,7 @@
     height: 411px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
     .topWrapper {
         margin: 120px 0px
     }
