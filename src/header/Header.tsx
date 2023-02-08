@@ -6,7 +6,7 @@ import phone from "../pictures/phone.png"
 import iphone from "../pictures/Iphone.png"
 
 const Header = () => {
-    const windowsSize =  window.screen.availWidth > 415;
+    const windowsSize =  window.screen.availWidth > 515;
     return (
         <div className={s.headerWrapper}>
           <div className={s.headerItem}>

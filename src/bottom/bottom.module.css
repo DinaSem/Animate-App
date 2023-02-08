@@ -1,17 +1,17 @@
 .bottomWrapper{
-    margin: 0px 330px 150px 0px;
+    margin: 0 330px 150px 0;
 }
 .title {
-    font-family: "Orchidea Pro Medium";
+    font-family: "Orchidea Pro Medium", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 130%;
     text-transform: uppercase;
-    text-align: start;
-    margin: 150px 0 120px  260px;
+    text-align: center;
+    margin: 150px 0 120px 260px;
 }
 h2{
-    font-family: "Orchidea Pro Medium";
+    font-family: "Orchidea Pro Medium",sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -36,7 +36,6 @@ h2{
     line-height: 130%;
     display: flex;
     align-items: center;
-
     color: #141414;
 }
 .topMainSectionOne{
@@ -50,27 +49,176 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 0 0px 260px;
-    /*max-width: 1323px;*/
-    /*max-height: 411px;*/
+    margin: 50px 0 0 260px;
 }
 .topTextSectionOne{
     max-width: 600px;
+    margin-left: 40px;
 }
 .topTextSectionTwo{
     max-width: 600px;
+    margin-right: 40px;
 }
-.blackDress{
-    width: 900px;
-    height: 604px;
+.blackDressImg{
+    max-width: 900px;
+    max-height: 604px;
+}
+.blackDressImg img{
+    max-width: 100%;
 }
 .flowerOnAMouth{
-    /*width: 604px;*/
-    /*height: 884px*/
+    max-width: 604px;
+    max-height: 884px
 }
-@media (max-width: 415px) {
+.flowerOnAMouth img{
+    max-width: 100%;
+}
+/*---------------------------------------Адаптация----------------------------------------------*/
+@media (max-width: 1800px) {
+    .topWrapper {
+        margin: 0 300px 0 0;
+    }
+
+    .topTextSectionOne {
+        margin-left: 40px;
+    }
+
+    .topTextSectionTwo {
+        margin-right: 40px;
+    }
+
+    .topTextSectionOne h2 {
+        font-size: 46px;
+    }
+
+    .topTextSectionTwo h2 {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 1700px) {
     .bottomWrapper {
-        margin: 64px 0px
+        margin: 0 200px 150px 0;
+    }
+
+    .title {
+        margin: 130px 0 200px 0;
+    }
+
+    .topTextSectionOne h2 {
+        font-size: 36px;
+    }
+
+    .topTextSectionTwo h2 {
+        font-size: 36px;
+    }
+
+    .topMainSectionTwo {
+        margin: 80px 0 0 200px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .bottomWrapper {
+        margin: 0 100px 100px 0;
+    }
+}
+
+.topTextSectionOne {
+    margin-left: 30px;
+}
+
+.topTextSectionTwo {
+    margin-right: 30px;
+}
+.topMainSectionTwo {
+    margin: 50px 0 0 100px;
+}
+.title {
+    font-size: 40px;
+    margin: 130px 0 100px 0;
+}
+
+
+@media (max-width: 1400px) {
+    .topTextSectionOne {
+        margin-left: 30px;
+    }
+
+    .topTextSectionTwo {
+        margin-right: 30px;
+    }
+    .topMainSectionTwo {
+        margin: 60px 0 0 80px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .bottomWrapper {
+        margin: 0 70px 70px 0;
+    }
+    .topTextSectionOne h2 {
+        font-size: 30px;
+    }
+
+    .topTextSectionTwo h2 {
+        font-size: 30px;
+    }
+    .topTextSectionOne p {
+        font-size: 18px;
+    }
+
+    .topTextSectionTwo p {
+        font-size: 18px;
+    }
+    .topTextSectionOne {
+        margin-left: 25px;
+        width: 50%;
+    }
+    .topTextSectionTwo {
+        margin-right: 25px;
+        width: 50%;
+    }
+    .topMainSectionTwo {
+        margin: 50px 0 0 70px;
+    }
+    .blackDress img{
+        width: 100%;
+    }
+
+}
+@media (max-width: 1100px) {
+    .bottomWrapper {
+        margin: 0 50px 50px 0;
+    }
+    .title {
+        font-size: 34px;
+        margin: 110px 0 25px 50px;
+        text-align: start;
+    }
+    .topTextSectionOne {
+        margin-left: 25px;
+    }
+
+    .topTextSectionTwo {
+        margin-right: 25px;
+    }
+    .topMainSectionTwo {
+        margin: 30px 0 0 50px;
+    }
+    .topTextSectionOne {
+        margin-left: 15px;
+        width: 85%;
+    }
+    .topTextSectionTwo {
+        margin-right: 15px;
+        width: 85%;
+    }
+}
+
+@media (max-width: 815px) {
+    .bottomWrapper {
+        margin: 64px 0;
     }
 
     .title {
@@ -78,6 +226,9 @@ h2{
         font-size: 24px;
         text-align: start;
         margin: 64px 20px 64px 20px ;
+    }
+    .topTextSectionOne {
+        max-width: none;
     }
 
     .blackDressImg {
@@ -144,16 +295,24 @@ h2{
 
     .topTextSectionOne p {
         font-size: 14px;
-        margin: 40px 20px;
         text-align: justify;
     }
 
     .topTextSectionTwo p {
         font-size: 14px;
-        margin: 20px;
+        margin: 26px;
         text-align: justify;
+    }
+    .topTextSectionOne {
+        width: 90%;
     }
     .topTextSectionTwo{
         display:table-footer-group;
+        width: 90%;
+    }
+}
+@media (max-width: 415px) {
+    .topTextSectionTwo p {
+        margin: 20px;
     }
 }

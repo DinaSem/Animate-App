@@ -1,12 +1,12 @@
 
 .title {
-  font-family: "Orchidea Pro Medium";
+  font-family: "Orchidea Pro Medium", sans-serif;
   font-weight: 500;
   font-size: 48px;
   line-height: 130%;
   text-transform: uppercase;
   text-align: start;
-  margin: 200px 0 120px 0px;
+  margin: 200px 0 120px 100px;
 }
 #block1 {
   margin-left : 260px;
@@ -29,8 +29,44 @@
   width: 330px;
   margin: 0 10px;
 }
+@media (max-width: 1800px) {
+  .title {
+    margin: 170px 0 120px 0;
+  }
+  #block1 {
+    margin-left : 170px;
+  }
+}
+@media (max-width: 1550px) {
+  .title {
+    font-size: 40px;
+    margin: 130px 0 100px 0;
+  }
+  #block1 {
+    margin-left : 130px;
+  }
+}
 
-@media (max-width: 415px) {
+@media (max-width: 1100px) {
+
+  .title {
+    font-size: 34px;
+    margin: 110px 0 30px 0;
+  }
+  #block1 {
+    margin-left : 110px;
+  }
+  .slides {
+    height: 400px
+  }
+  .slide{
+    padding: 7px;
+    width: 250px;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 615px) {
 
   .title {
     font-weight: 500;
@@ -40,9 +76,7 @@
     ;
   }
   #block1 {
-    margin-left : 0px;
-    overflow : hidden !important;
-    max-width: 90%;
+    margin-left : 0;
   }
   .slides {
 

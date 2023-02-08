@@ -13,10 +13,10 @@
 .headerItem{
     max-height:170px;
 }
-@media (max-width: 415px) {
+@media (max-width: 915px) {
     .headerWrapper {
-        padding: 20px;
-        max-height: 60px;
+        padding: 20px 80px;
+        max-height: 100px;
     }
     .headerItem{
         /*width: 94px;*/
@@ -29,13 +29,21 @@
     .circeya{
         max-height: 17px;
     }
+    .phone{
+
+    }
+}
+@media (max-width: 615px) {
+    .headerWrapper {
+        padding: 20px;
+        max-height: 60px;
+    }
     .iphone{
         width: 20px;
         height:20px;
     }
     .iphone:hover{
-        width: 20px;
-        height:20px;
+        width: 25px;
+        height: 25px;
     }
 }
-
