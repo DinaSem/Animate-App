@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Animate-App/static/css/main.0c4243d4.css",
-    "main.js": "/Animate-App/static/js/main.5e045056.js",
+    "main.css": "/Animate-App/static/css/main.b5109651.css",
+    "main.js": "/Animate-App/static/js/main.0176453a.js",
     "static/js/787.907d20ab.chunk.js": "/Animate-App/static/js/787.907d20ab.chunk.js",
     "static/media/rings.png": "/Animate-App/static/media/rings.b9cf9527085afe6f38ef.png",
     "static/media/6.png": "/Animate-App/static/media/6.faa40103c16c1871cbf0.png",
@@ -19,12 +19,12 @@
     "static/media/11.png": "/Animate-App/static/media/11.15b8cff0f3d18c7a276c.png",
     "static/media/OrchideaPro-Medium.woff2": "/Animate-App/static/media/OrchideaPro-Medium.c59499aeab18220e5d08.woff2",
     "index.html": "/Animate-App/index.html",
-    "main.0c4243d4.css.map": "/Animate-App/static/css/main.0c4243d4.css.map",
-    "main.5e045056.js.map": "/Animate-App/static/js/main.5e045056.js.map",
+    "main.b5109651.css.map": "/Animate-App/static/css/main.b5109651.css.map",
+    "main.0176453a.js.map": "/Animate-App/static/js/main.0176453a.js.map",
     "787.907d20ab.chunk.js.map": "/Animate-App/static/js/787.907d20ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c4243d4.css",
-    "static/js/main.5e045056.js"
+    "static/css/main.b5109651.css",
+    "static/js/main.0176453a.js"
   ]
 }
