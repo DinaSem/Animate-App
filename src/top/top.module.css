@@ -304,13 +304,13 @@
     }
 
 .topTextSectionOne {
-    margin-left: 0px;
+    margin-left: 0;
     width: 100%;
 }
 }
 @media (max-width: 615px) {
     .topWrapper {
-        margin: 120px 0px
+        margin: 120px 0;
     }
     .topTextSectionOne p {
         margin: 40px 20px;
@@ -318,4 +318,22 @@
     .topTextSectionTwo p {
         margin: 20px;
     }
+}
+.plusActive {
+    z-index: 1000;
+    width: fit-content;
+    position: absolute;
+border: red 1px solid;
+    opacity: 1;
+    bottom: 450px;
+    right: 650px;
+
+}
+
+.plusNonActive {
+
+//border: red 1px solid;
+    margin-top: 20%;
+    margin-left: 75%;
+    opacity: 0;
 }

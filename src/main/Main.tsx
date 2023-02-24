@@ -6,11 +6,15 @@ import Footer from "../footer/Footer";
 
 
 const Main = () => {
+    const [isModal, setModal] = React.useState(true)
+    const onClose = () => setModal(false)
+    const isOpen = () => setModal(true)
     return (
         <div>
             <Top/>
             <Bottom/>
             <Footer/>
+
         </div>
     );
 };

@@ -1,14 +1,26 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './top.module.css';
 import rings from "../pictures/rings.png"
 import panama from "../pictures/facePanama.png"
+import {Modal, Plus} from '../modal-picture-open/Modal';
 
 const Top = () => {
+    const [isModal, setModal] = useState(false)
+    const onClose = () => setModal(false)
+    const isOpen = () => setModal(true)
     return (
         <div className={s.topWrapper}>
             <h1 className={s.title}>ut aliquip ex ea commodo consequat</h1>
             <div className={s.topMainSectionOne}>
                 <div className={s.ringsImg}><img src={rings} alt="rings"/></div>
+                <div className={isModal ? s.plusNonActive : s.plusActive}>
+                    <Plus isOpen={isOpen}/>
+                </div>
+                <Modal
+                    visible={isModal}
+                    content={rings}
+                    onClose={onClose}
+                />
                 <div className={s.topTextSectionOne}>
                     <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit

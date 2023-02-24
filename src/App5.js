@@ -21,6 +21,8 @@ import Bottom from "./bottom/Bottom";
 gsap.registerPlugin(ScrollTrigger);
 
 export const App5 = () => {
+
+
     const ref = useRef(null);
     const slidesRef = useRef(null);
     const slideRef = useRef(null);
