@@ -325,8 +325,8 @@
     position: absolute;
 border: red 1px solid;
     opacity: 1;
-    bottom: 450px;
-    right: 650px;
+    bottom: 200px;
+    right: 1020px;
 
 }
 
@@ -336,4 +336,7 @@ border: red 1px solid;
     margin-top: 20%;
     margin-left: 75%;
     opacity: 0;
+}
+img{
+
 }

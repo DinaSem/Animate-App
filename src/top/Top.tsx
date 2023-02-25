@@ -5,7 +5,7 @@ import panama from "../pictures/facePanama.png"
 import {Modal, Plus} from '../modal-picture-open/Modal';
 
 const Top = () => {
-    const [isModal, setModal] = useState(false)
+    const [isModal, setModal] = useState(true)
     const onClose = () => setModal(false)
     const isOpen = () => setModal(true)
     return (

@@ -12,7 +12,7 @@
 .modalPicture {
   position: absolute;
   z-index: 1000;
-  width: 100%;
+  //width: 100%;
   //
   //top: 0;
   //left: 0;
@@ -157,7 +157,7 @@ img {
     width: 100px;
     height: 100px;
     box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.3);
-    pointer-events: none;
+   // pointer-events: none;
     position: absolute;
     border: 4px solid #efefef;
     z-index: 99;
@@ -186,8 +186,8 @@ figure:hover img {
 
 img {
   display: block;
-  width: 100%;
-  pointer-events: none;
+  width: content-box;
+  //pointer-events: none;
 }
 
 #root {
